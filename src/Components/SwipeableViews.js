@@ -16,7 +16,7 @@ const styles = {
     fontWeight: 400,
   },
   slide: {
-    padding: 100,
+    padding: 10,
   },
 };
 

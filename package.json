@@ -2,17 +2,25 @@
   "name": "Portfolio2",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+"node": "v6.2.1",
+"npm": "3.10.3"
+},
+  "main": "server.js",
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-motion": "^0.4.5",
     "react-swipeable-views": "^0.8.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
