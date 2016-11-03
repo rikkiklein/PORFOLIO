@@ -1,0 +1,68 @@
+.outer-container{
+  display: flex;
+  flex-direction: row;
+}
+
+ .col2-outer-container{
+  padding-top: 1em;
+}
+
+.column1{
+  order: 1;
+  width: 80%;
+  text-align: left;
+}
+
+.column2{
+  order: 2;
+  width: 20%;
+  text-align: right;
+}
+
+h1{
+  color: #000040;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 1.3em;
+
+}
+
+h3{
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+.date-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  order: 1;
+  text-align: left;
+  width: 75%;
+}
+
+.right{
+  order: 2;
+  text-align: right;
+  width: 25%;
+}
+
+p{
+  line-height: 1.2em;
+}
+
+a{
+  text-decoration: none;
+  color: #ff6666;
+}
+
+a:hover{
+  text-decoration: underline;
+}
