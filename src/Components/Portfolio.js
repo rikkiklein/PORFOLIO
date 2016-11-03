@@ -5,14 +5,10 @@ import Resume               from './Resume.js';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 const muiTheme = getMuiTheme({
-  palette: {
-    textColor: '#f44f55',
-  },
-  appBar: {
-    height: 30,
-    fontSize: 2,
-    color: ' #fefefe',
-    canvasColor: '#ff5544',
+  tabs: {
+    backgroundColor: "#fefefe",
+    textColor: "blue",
+    selectedTextColor: "green",
   },
 });
  class Portfolio extends Component {

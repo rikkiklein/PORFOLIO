@@ -4,6 +4,7 @@ import SwipeableViews from 'react-swipeable-views';
 import Resume                 from './Resume.js';
 import Projects               from './Projects.js';
 import ContactInfo            from './ContactInfo.js';
+import "../CSS/Resume.css";
 
 var injectTapEventPlugin = require("react-tap-event-plugin");
 injectTapEventPlugin();
@@ -18,6 +19,7 @@ const styles = {
   slide: {
     padding: 10,
   },
+
 };
 
 export default class TabsExampleSwipeable extends React.Component {
@@ -38,11 +40,11 @@ export default class TabsExampleSwipeable extends React.Component {
   render() {
     return (
       <div>
-        <Tabs
+        <Tabs inkBarStyle={{background: '#ff6666'}}
           onChange={this.handleChange}
           value={this.state.slideIndex}
         >
-          <Tab label="Resume" value={0} />
+          <Tab id="tab" label="Resume" value={0} />
           <Tab label="Projects" value={1} />
           <Tab label="Contact" value={2} />
         </Tabs>

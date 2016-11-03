@@ -54,6 +54,9 @@ h3{
   text-align: right;
   width: 25%;
 }
+#tab{
+  border: 3px solid purple;
+}
 
 p{
   line-height: 1.2em;
