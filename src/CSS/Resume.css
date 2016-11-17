@@ -163,3 +163,12 @@ a:hover{
   margin-left: 20%;
   padding: 3em;
 }
+
+.Footer{
+  border-top: 3px solid #4c0216;
+  color: #4c0216;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2em;
+  text-align: center;
+}

@@ -3,7 +3,7 @@ import SwipeTabs            from './SwipeableViews.js';
 import MuiThemeProvider     from 'material-ui/styles/MuiThemeProvider';
 import Resume               from './Resume.js';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-
+import Footer               from './Footer.js';
 const muiTheme = getMuiTheme({
   tabs: {
     backgroundColor: "#fefefe",
@@ -21,6 +21,7 @@ const muiTheme = getMuiTheme({
             <SwipeTabs/>
           </div>
         </MuiThemeProvider>
+        <Footer/>
        </div>
      );
    }
