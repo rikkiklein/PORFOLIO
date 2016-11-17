@@ -9,27 +9,32 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="about-outer-paper">
-
-    </div>
+        <div className="time">
+          <div className="logo-outer">
+            <div className="logo-ga">
+            </div>
+            <div className="timeline-bar"></div>
+          </div>
+          <div className="logo-text">logo text</div>
+        </div>
+        <div className="time">
+          <div className="logo-outer">
+            <div className="logo-bc">
+            </div>
+            <div className="timeline-bar"></div>
+          </div>
+          <div className="logo-text">logo text</div>
+        </div>
+        <div className="time">
+          <div className="logo-outer">
+            <div className="logo-bc">
+            </div>
+          </div>
+          <div className="logo-text">logo text</div>
+        </div>
+      </div>
     );
   }
 }
 
 export default AboutMe;
-
-
-/*
-<div className="about-outer">
-  <div className="github"></div>
-  <div className="personal-message">
-    I am a Frontend Web Developer who
-    loves utilizing my creativity and
-     hardworking skills to ensure the
-     best outcome possible. Let's connect!
-  </div>
-
-</div>
-
-Education:
-<VerticalLinearStepper/>
-*/

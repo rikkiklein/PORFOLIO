@@ -116,5 +116,50 @@ a:hover{
 }
 
 .about-outer-paper{
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.time{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-outer{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-bc{
+  background: url("./bc.jpg");
+  height: 23vh;
+  width: 11vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo-ga{
+  background: url("./ga.jpg");
+  height: 23vh;
+  width: 11vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.timeline-bar{
+  height: 20vh;
+  background:  #4c0216;
+  width: .3vh;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 15%;
+  margin-top: 15%;
+}
+
+.logo-text{
+  margin-left: 20%;
   padding: 3em;
 }
