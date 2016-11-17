@@ -1,6 +1,7 @@
-import React from 'react';
-import {Tabs, Tab} from 'material-ui/Tabs';
-import SwipeableViews from 'react-swipeable-views';
+import React                  from 'react';
+import {Tabs, Tab}            from 'material-ui/Tabs';
+import SwipeableViews         from 'react-swipeable-views';
+import AboutMe                from './AboutMe.js';
 import Resume                 from './Resume.js';
 import Projects               from './Projects.js';
 import ContactInfo            from './ContactInfo.js';
@@ -40,18 +41,36 @@ export default class TabsExampleSwipeable extends React.Component {
   render() {
     return (
       <div>
-        <Tabs inkBarStyle={{background: '#ff6666'}}
+
+        <Tabs inkBarStyle={{background: '#4c0216'}}
           onChange={this.handleChange}
           value={this.state.slideIndex}
         >
-          <Tab id="tab" label="Resume" value={0} />
-          <Tab label="Projects" value={1} />
-          <Tab label="Contact" value={2} />
+
+          <Tab style = {{
+              backgroundColor: "#ffffff",
+              color: "#4c0216",
+            }} id="tab" label="About Me" value={0} />
+          <Tab style = {{
+            backgroundColor: "#ffffff",
+            color: "#4c0216",
+            }} id="tab" label="Resume" value={1} />
+          <Tab style = {{
+            backgroundColor: "#ffffff",
+            color: "#4c0216",
+            }} label="Projects" value={2} />
+          <Tab style = {{
+            backgroundColor: "#ffffff",
+            color: "#4c0216",
+            }} label="Contact" value={3} />
         </Tabs>
-        <SwipeableViews
+        <SwipeableViews className="swipe"
           index={this.state.slideIndex}
           onChangeIndex={this.handleChange}
         >
+          <div>
+            <AboutMe/>
+          </div>
           <div>
             <Resume/>
           </div>

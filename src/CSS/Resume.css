@@ -1,7 +1,13 @@
+.resume-outer-paper{
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  margin: 3em;
+  padding: 3em;
+}
+
 .outer-container{
   display: flex;
   flex-direction: row;
-  padding: 3em;
 }
 
  .col2-outer-container{
@@ -21,7 +27,8 @@
 }
 
 h1{
-  color: #000040;
+  color: #794464;
+  color: #4c0216;
   font-size: 2em;
   text-transform: uppercase;
 }
@@ -54,9 +61,6 @@ h3{
   text-align: right;
   width: 25%;
 }
-#tab{
-  border: 3px solid purple;
-}
 
 p{
   line-height: 1.2em;
@@ -64,9 +68,12 @@ p{
 
 a{
   text-decoration: none;
-  color: #ff6666;
+  color: #6995bb;
 }
 
 a:hover{
   text-decoration: underline;
+}
+
+.swipe{
 }

@@ -1,0 +1,53 @@
+.banner-image{
+  background: url("./banner.jpg");
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+  -moz-linear-gradient(top, rgba(47,52,60,0.25), rgba(47,25,44,0.35)),
+  -moz-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./banner.jpg");
+  background-image:
+    -webkit-linear-gradient(top, rgba(47,52,60,0.25), rgba(47,25,44,0.35)),
+    -webkit-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./banner.jpg");
+  background-image:
+    -ms-linear-gradient(top, rgba(47,52,60,0.25), rgba(47,25,44,0.35)),
+    -ms-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./banner.jpg");
+  background-image:
+    linear-gradient(top, rgba(47,52,60,0.25), rgba(47,25,34,0.45)),
+    linear-gradient(top, rgba(255,255,255,.23), rgba(255,255,255,.23)), url("./banner.jpg");
+  text-align: center;
+  justify-content: center;
+  background-position:50% 110%;
+  border-bottom: 3px solid rgba(255,255,255, .3);
+}
+.heading{
+  color: white;
+  font-family: Noteworthy;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 4.5%;
+  animation: 5s search-fade-horiz linear;
+  text-align: center;
+}
+
+@keyframes search-fade-horiz{
+  0%   {
+    opacity: 0;
+  }
+  100% { opacity: 1;
+   }
+}
+
+.by{
+  color: #4c0216;
+}
+
+.type{
+  order: 2;
+  color: #ff6666;
+  font-family: helvetica;
+  letter-spacing: .5em;
+  font-size: 3em;
+}
