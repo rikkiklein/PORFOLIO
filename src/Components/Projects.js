@@ -9,9 +9,17 @@ class Projects extends Component {
     return (
       <div className="App">
         Projects Here
+
       </div>
     );
   }
 }
 
 export default Projects;
+
+/*
+<div className="outer-grid">
+  <div className="project">P1</div>
+
+</div>
+*/ 

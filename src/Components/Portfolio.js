@@ -17,7 +17,7 @@ const muiTheme = getMuiTheme({
      return (
        <div className="App">
         <MuiThemeProvider>
-          <div>
+          <div className="outer-tabs">
             <SwipeTabs/>
           </div>
         </MuiThemeProvider>

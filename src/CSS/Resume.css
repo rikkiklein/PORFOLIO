@@ -77,3 +77,44 @@ a:hover{
 
 .swipe{
 }
+
+.outer-grid{
+  border: 3px solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project{
+  border: 3px solid blue;
+}
+
+.github{
+  background: url("./github.jpg");
+  border: 3px solid gray;
+  height: 19vh;
+  width: 9.7vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  padding: 3em;
+  margin-left: 5%;
+}
+
+.personal-message{
+  width: 50%;
+  font-family: helvetica;
+  margin-left: 10%;
+  color: #4c0216;
+  font-size: 1.1em;
+  padding: 1em;
+}
+
+.about-outer{
+  display: flex;
+  flex-direction: row;
+}
+
+.about-outer-paper{
+  padding: 3em;
+}

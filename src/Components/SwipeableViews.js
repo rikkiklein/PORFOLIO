@@ -46,15 +46,14 @@ export default class TabsExampleSwipeable extends React.Component {
           onChange={this.handleChange}
           value={this.state.slideIndex}
         >
-
-          <Tab style = {{
-              backgroundColor: "#ffffff",
-              color: "#4c0216",
-            }} id="tab" label="About Me" value={0} />
           <Tab style = {{
             backgroundColor: "#ffffff",
             color: "#4c0216",
-            }} id="tab" label="Resume" value={1} />
+          }} id="tab" label="Resume" value={0} />
+          <Tab style = {{
+              backgroundColor: "#ffffff",
+              color: "#4c0216",
+            }} id="tab" label="About Me" value={1} />
           <Tab style = {{
             backgroundColor: "#ffffff",
             color: "#4c0216",
@@ -69,10 +68,10 @@ export default class TabsExampleSwipeable extends React.Component {
           onChangeIndex={this.handleChange}
         >
           <div>
-            <AboutMe/>
+            <Resume/>
           </div>
           <div>
-            <Resume/>
+            <AboutMe/>
           </div>
           <div style={styles.slide}>
             <Projects/>

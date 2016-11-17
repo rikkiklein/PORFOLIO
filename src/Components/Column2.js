@@ -8,9 +8,8 @@ class Column2 extends Component {
         <div className="col2-outer-container">
           (917) 574-1120 <br/>
           rifkarabinowitz@gmail.com <br/>
-          LinkedIn: rifkarabinowitz <br/>
-          GitHub: rikkirabz<br/>
-
+          LinkedIn: <a href={"https://www.linkedin.com/in/rifkarabinowitz"} target="_blank"> rifkarabinowitz</a> <br/>
+          GitHub: <a href={"https://github.com/rikkirabz"} target="_blank"> rikkirabz</a> <br/>
         <h2>Skills</h2>
         <p>
           Web Development:<br/>
