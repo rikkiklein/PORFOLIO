@@ -180,7 +180,7 @@ a:hover{
     border-radius: 5px;
     margin: 1em;
     margin-top: 2em;
-    padding: 1em;
+    padding: .5em;
   }
 
   .outer-container{
@@ -219,7 +219,6 @@ a:hover{
   .about-outer-paper{
     padding: .5em;
     text-align: center;
-    width: 95vw;
   }
 
   .time{
@@ -228,12 +227,10 @@ a:hover{
     padding: .3em;
     padding-bottom: 1em;
     padding-top: 1em;
-    max-width: 100%;
   }
 
   .logo-outer{
     border-bottom: 2px solid #4c0216;
-    width: 100%;
     display: block;
     margin: 0 auto;
     display: flex;
