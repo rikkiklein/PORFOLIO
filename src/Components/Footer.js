@@ -8,8 +8,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-        Footer info
-
+        <p>&copy; Rifka Rabinowitz 2016 All Rights Reserved</p>
       </div>
     );
   }

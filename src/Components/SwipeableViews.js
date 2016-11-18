@@ -42,7 +42,7 @@ export default class TabsExampleSwipeable extends React.Component {
     return (
       <div>
 
-        <Tabs inkBarStyle={{background: '#4c0216'}}
+        <Tabs className="tab" inkBarStyle={{background: '#4c0216'}}
           onChange={this.handleChange}
           value={this.state.slideIndex}
         >
@@ -53,7 +53,7 @@ export default class TabsExampleSwipeable extends React.Component {
           <Tab style = {{
               backgroundColor: "#ffffff",
               color: "#4c0216",
-            }} id="tab" label="About Me" value={1} />
+            }} id="tab" label="About" value={1} />
           <Tab style = {{
             backgroundColor: "#ffffff",
             color: "#4c0216",

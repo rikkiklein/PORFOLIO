@@ -149,7 +149,7 @@ a:hover{
 
 
 .timeline-bar{
-  height: 20vh;
+  height: 30vh;
   background:  #4c0216;
   width: .3vh;
   text-align: center;
@@ -161,14 +161,93 @@ a:hover{
 
 .logo-text{
   margin-left: 20%;
-  padding: 3em;
+  font-family: helvetica;
 }
 
 .Footer{
-  border-top: 3px solid #4c0216;
+  border-top: 2px solid #4c0216;
   color: #4c0216;
   margin-left: 10%;
   margin-right: 10%;
   padding: 2em;
   text-align: center;
+  font-family: helvetica;
+}
+
+@media screen and (max-width: 736px){
+  .resume-outer-paper{
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    margin: 1em;
+    margin-top: 2em;
+    padding: 1em;
+  }
+
+  .outer-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+   .col2-outer-container{
+    padding-top: 1em;
+  }
+
+  .column1{
+    order: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .column2{
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-outer-paper{
+    padding: .5em;
+    text-align: center;
+  }
+
+  .time{
+    display: flex;
+    flex-direction: column;
+    padding: .3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+
+  .logo-outer{
+    border-bottom: 2px solid #4c0216;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+  }
+
+  .logo-bc{
+    background: url("./bc.jpg");
+    height: 30vh;
+    width: 50vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .logo-ga{
+    background: url("./ga.jpg");
+    height: 30vh;
+    width: 50vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .timeline-bar{
+    display: none;
+  }
+  .logo-text{
+    margin-left: 0%;
+    font-family: helvetica;
+    width: 100%;
+  }
 }

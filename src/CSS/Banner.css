@@ -56,3 +56,42 @@
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
+
+@media screen and (max-width: 736px){
+  .heading{
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 1em;
+    flex-direction: column;
+  }
+
+  .banner-image{
+    background: url("./banner.jpg");
+    height: 49vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:
+    -moz-linear-gradient(top, rgba(47,52,60,0.25), rgba(47,25,44,0.35)),
+    -moz-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./banner.jpg");
+    background-image:
+      -webkit-linear-gradient(top, rgba(47,52,60,0.25), rgba(47,25,44,0.35)),
+      -webkit-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./banner.jpg");
+    background-image:
+      -ms-linear-gradient(top, rgba(47,52,60,0.25), rgba(47,25,44,0.35)),
+      -ms-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,.3)), url("./banner.jpg");
+    background-image:
+      linear-gradient(top, rgba(47,52,60,0.25), rgba(47,25,34,0.45)),
+      linear-gradient(top, rgba(255,255,255,.23), rgba(255,255,255,.23)), url("./banner.jpg");
+    text-align: center;
+    justify-content: center;
+    background-position:100% 50%;
+    border-bottom: 3px solid rgba(255,255,255, .3);
+  }
+  .outer-tabs{
+    padding-left:0em;
+    padding-right: 0em;
+  }
+}
