@@ -190,6 +190,8 @@ a:hover{
 
    .col2-outer-container{
     padding-top: 1em;
+    display: flex;
+    flex-direction: column;
   }
 
   .column1{
@@ -204,11 +206,20 @@ a:hover{
     text-align: center;
   }
 
+  .info{
+    order: 2;
+    border-top: 1px solid gray;
+    padding-top: 1em;
+  }
+
+  .skills{
+    order: 1;
+  }
+
   .about-outer-paper{
     padding: .5em;
     text-align: center;
-    border: 3px solid blue;
-    max-width: 90%;
+    width: 95vw;
   }
 
   .time{
