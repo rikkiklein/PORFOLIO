@@ -207,6 +207,8 @@ a:hover{
   .about-outer-paper{
     padding: .5em;
     text-align: center;
+    border: 3px solid blue;
+    max-width: 90%;
   }
 
   .time{
