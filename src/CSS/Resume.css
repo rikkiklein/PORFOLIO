@@ -215,6 +215,7 @@ a:hover{
     padding: .3em;
     padding-bottom: 1em;
     padding-top: 1em;
+    max-width: 100%;
   }
 
   .logo-outer{
