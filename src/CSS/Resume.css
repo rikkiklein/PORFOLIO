@@ -1,12 +1,14 @@
 .resume-outer-paper{
-  border: 1px solid #aaaaaa;
-  border-radius: 5px;
   background: white;
+  padding: 3em;
 }
 
 .outer-container{
   display: flex;
   flex-direction: row;
+  border: 1px solid #aaaaaa;
+  padding: 3em;
+  border-radius: 5px;
 }
 
  .col2-outer-container{
@@ -139,6 +141,7 @@ a:hover{
   margin-right: 20%;
   margin-top: 20%;
   background-repeat: no-repeat;
+  height: 30vh;
 }
 
 .logo-ga{
@@ -147,6 +150,7 @@ a:hover{
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 20%;
+  height: 30vh;
   background-repeat: no-repeat;
 }
 
