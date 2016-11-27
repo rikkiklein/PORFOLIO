@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import SwipeTabs            from './SwipeableViews.js';
+import Drawer               from './Drawer.js';
 import MuiThemeProvider     from 'material-ui/styles/MuiThemeProvider';
 import Resume               from './Resume.js';
-import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import getMuiTheme          from 'material-ui/styles/getMuiTheme';
 import Footer               from './Footer.js';
+import HomeIcon             from './HomeIcon.js';
+
 const muiTheme = getMuiTheme({
   tabs: {
     backgroundColor: "#fefefe",
@@ -18,10 +20,11 @@ const muiTheme = getMuiTheme({
        <div className="App">
         <MuiThemeProvider>
           <div className="outer-tabs">
-            <SwipeTabs/>
+            <Drawer/>
           </div>
         </MuiThemeProvider>
-        <Footer/>
+
+
        </div>
      );
    }

@@ -7,7 +7,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 class ContactInfo extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         Contact Here
       </div>
     );
