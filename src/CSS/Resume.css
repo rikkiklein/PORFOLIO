@@ -170,6 +170,7 @@ a:hover{
   flex-direction: row;
   flex-wrap: wrap;
   padding: 3em;
+  padding-left: 8em;
 }
 
 .project1, .project2, .project3{
@@ -302,7 +303,7 @@ a:hover{
 }
 
 .maroon{
-  width: 27.7vw;
+  width: 27%;
   height: 35vh;
   border-radius: 5px;
   margin: 1em;
