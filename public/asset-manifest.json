@@ -1,13 +1,17 @@
 {
-  "main.css": "static/css/main.d1376576.css",
-  "main.css.map": "static/css/main.d1376576.css.map",
-  "main.js": "static/js/main.e6a9f150.js",
-  "main.js.map": "static/js/main.e6a9f150.js.map",
+  "main.css": "static/css/main.662e297d.css",
+  "main.css.map": "static/css/main.662e297d.css.map",
+  "main.js": "static/js/main.fe3684bd.js",
+  "main.js.map": "static/js/main.fe3684bd.js.map",
   "static/media/GRAD.jpg": "static/media/GRAD.4635ef37.jpg",
   "static/media/banner.jpg": "static/media/banner.fc25bfcd.jpg",
   "static/media/banner2.jpg": "static/media/banner2.25955d2d.jpg",
   "static/media/bc.jpg": "static/media/bc.d4e1803d.jpg",
   "static/media/ga.jpg": "static/media/ga.96d2c489.jpg",
   "static/media/github.jpg": "static/media/github.136d39bc.jpg",
-  "static/media/projects.jpg": "static/media/projects.500f7080.jpg"
+  "static/media/project1.png": "static/media/project1.dc87b69c.png",
+  "static/media/project2.png": "static/media/project2.07cf629a.png",
+  "static/media/project3.png": "static/media/project3.939cfca7.png",
+  "static/media/projects.jpg": "static/media/projects.500f7080.jpg",
+  "static/media/projects2.jpg": "static/media/projects2.91bba11b.jpg"
 }

@@ -8,7 +8,6 @@ class ContactInfo extends Component {
   render() {
     return (
       <div>
-        Contact Here
       </div>
     );
   }

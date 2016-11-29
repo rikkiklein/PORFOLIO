@@ -8,6 +8,17 @@ class Column1 extends Component {
         <div className="col-outer-container">
           <h1>Rifka Rabinowitz</h1>
           <h3>FullStack Web Developer</h3>
+
+          <h2>EDUCATION</h2>
+          <div className="date-flex">
+            <div className="left">CUNY Brooklyn College <br/>
+           BS in Computer Science <br/>
+           </div>
+           <div className="right">June 2012 - May 2016 <br/>
+           </div>
+         </div>
+           GPA: 3.9 <br/>
+         Double Minor: Accounting & Multimedia
           <h2>Experience</h2>
           <div className="date-flex">
             <div className="left">General Assembly - New York, NY <br/>

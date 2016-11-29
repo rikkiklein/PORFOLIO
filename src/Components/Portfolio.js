@@ -18,16 +18,17 @@ const muiTheme = getMuiTheme({
    render() {
      return (
        <div className="App">
-        <MuiThemeProvider>
-          <div className="outer-tabs">
-            <Drawer/>
-          </div>
-        </MuiThemeProvider>
-
-
        </div>
      );
    }
  }
 
  export default Portfolio;
+
+ /*
+ <MuiThemeProvider>
+   <div className="outer-tabs">
+     <Drawer/>
+   </div>
+ </MuiThemeProvider>
+ */

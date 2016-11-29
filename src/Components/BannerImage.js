@@ -19,7 +19,7 @@ class BannerImage extends Component {
        <div className="outer">
          <Portfolio/>
 
-           <div className="banner-image">
+           <div className="projects-image">
 
              <div className="outer-heading">
                <div className="heading">
@@ -40,7 +40,7 @@ class BannerImage extends Component {
            <div className="about-tab">
              <AboutMe/>
            </div>
-           <div className="projects-image">
+           <div className="projects2-image">
              <div className="outer-heading">
                <div className="heading">
                  My <span className="by">Projects</span>

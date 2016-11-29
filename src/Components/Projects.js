@@ -8,17 +8,13 @@ class Projects extends Component {
   render() {
     return (
       <div className="outer-projects">
-        <div className="project1">proj 1</div>
+        <a className="project1" href={"https://gentle-waters-71149.herokuapp.com/"} target="_blank"></a>
         <div className="maroon"></div>
-        <div className="project1">proj 2</div>
+        <a className="project2" href={"https://rikkirabz.github.io/API_PROJECT2_FE/"} target="_blank"></a>
         <div className="maroon"></div>
-        <div className="project1">proj 2</div>
+        <a className="project3" href={"https://rikkirabz.github.io/Math-Trivia/"} target="_blank"></a>
         <div className="maroon"></div>
-        <div className="project1">proj 2</div>
-        <div className="maroon"></div>
-        <div className="project1">proj 2</div>
-        <div className="maroon"></div>
-    </div>
+        </div>
     );
   }
 }

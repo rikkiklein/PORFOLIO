@@ -30,12 +30,6 @@ class Column2 extends Component {
             Development Tools: <br/>
             Git, GitHub, MySQL Workbench, Eclipse, Android Studio, Atom
           </p>
-
-          <h2>EDUCATION</h2>
-          <p>CUNY Brooklyn College <br/>
-           BS in Computer Science <br/>
-          June 2012-May 2016
-          </p>
         </div>
       </div>
     </div>
