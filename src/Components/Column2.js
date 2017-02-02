@@ -11,7 +11,8 @@ class Column2 extends Component {
             rifkarabinowitz@gmail.com <br/>
             LinkedIn: <a href={"https://www.linkedin.com/in/rifkarabinowitz"} target="_blank"> rifkarabinowitz</a> <br/>
             GitHub: <a href={"https://github.com/rikkirabz"} target="_blank"> rikkirabz</a> <br/>
-          </div>
+            General Assembly: <a href={"https://profiles.generalassemb.ly/profiles/rifka-rabinowitz"} target="_blank">rifka-rabinowitz</a>
+        </div>
           <div className="skills">
           <h2>Skills</h2>
           <p>
